@@ -1,0 +1,53 @@
+.contact-us{
+    background-image: url("https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?t=st=1715843270~exp=1715846870~hmac=fe25d801d21316188f3f6741be1139f34667d4a8107203775dde2f8f04ffaa23&w=900");
+    padding: 4vw;
+}
+.contact-us h1{
+    font-size: 3vw;
+    font-weight: 800;
+}
+.contact-us p{
+    font-size: 2vw;
+    margin-bottom: 30px;
+}
+.contact-us .calling{
+    /* margin-top: 20px; */
+    padding: 1vw;
+    background-color: red;
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 20px;
+}
+@media (min-width:300px) and (max-width:600px) {
+    .contact-us{
+        padding: 3vh;
+    }
+    .contact-us h1{
+        margin: 20px 0;
+        font-size: 5vh;
+    }
+    .contact-us p{
+        font-size: 4vh;
+        margin-bottom: 30px;
+    }
+    .contact-us .calling{
+        padding: 2vh;
+    }
+}
+@media (min-width:601px) and (max-width:1025px) {
+    .contact-us{
+        padding: 3vh;
+    }
+    .contact-us h1{
+        margin: 20px 0;
+        font-size: 5vh;
+    }
+    .contact-us p{
+        font-size: 4vh;
+        margin-bottom: 30px;
+    }
+    .contact-us .calling{
+        padding: 2vh;
+    }
+}
